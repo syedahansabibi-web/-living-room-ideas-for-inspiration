@@ -36,7 +36,7 @@
 			<div class="site-main-header-inner-wrap site-header-row site-header-row-has-sides site-header-row-no-center">
 									<div class="site-header-main-section-left site-header-section site-header-section-left">
 						<div class="site-header-item site-header-focus-item" data-section="title_tagline">
-	<div class="site-branding mobile-site-branding branding-layout-standard branding-tablet-layout-standard branding-mobile-layout-inherit"><a class="brand" href="https://www.everydayinspo.com/" rel="home"><div class="site-title-wrap"><div class="site-title">Everyday Inspo</div></div></a></div></div><!-- data-section="title_tagline" -->
+	<div class="site-branding mobile-site-branding branding-layout-standard branding-tablet-layout-standard branding-mobile-layout-inherit"><a class="brand" href="https://everyday-inspo.vercel.app/" rel="home"><div class="site-title-wrap"><div class="site-title">Everyday Inspo</div></div></a></div></div><!-- data-section="title_tagline" -->
 					</div>
 																	<div class="site-header-main-section-right site-header-section site-header-section-right">
 						<div class="site-header-item site-header-focus-item" data-section="kadence_customizer_mobile_cart">
@@ -55,7 +55,31 @@
 		</div>
 			</div>
 </div>
-<style>
+<style>body {
+    margin: 0;
+    padding: 0;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.my-image {
+    width: 350px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.my-image:hover {
+    transform: scale(1.05);
+;
+}</style>
 <style>/* Reset */
 * {
     margin: 0;
@@ -106,8 +130,8 @@ nav a:hover {
 .hero {
     padding: 80px 20px;
     text-align: center;
-    background: linear-gradient(135deg, #0077cc, #00b4d8);
-    color: white;
+    background: linear-gradient(135deg);
+    
 }
 
 .hero h1 {
@@ -124,7 +148,6 @@ nav a:hover {
     display: inline-block;
     padding: 12px 24px;
     background: white;
-    color: #0077cc;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
@@ -149,17 +172,6 @@ nav a:hover {
     gap: 20px;
 }
 
-.card {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease;
-}
-
-.card:hover {
-    transform: translateY(-5px);
-}
 
 /* Footer */
 footer {
@@ -184,31 +196,6 @@ footer {
     .hero p {
         font-size: 1rem;
     }
-}</style>
-	<style>body {
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    font-family: Arial, sans-serif;
-}
-
-.my-image {
-    width: 350px;
-    max-width: 100%;
-    height: auto;
-    border-radius: 15px;
-    border: 5px solid #007BFF;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.my-image:hover {
-    transform: scale(1.05);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
 }</style>
 </header><!-- #masthead -->
 
